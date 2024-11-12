@@ -64,6 +64,9 @@ body:active{
 .link{
     color: white;
 }
+a:-webkit-any-link {
+    color: white;
+}
 .link:hover{
     color: rgb(255, 0, 0);
 }
@@ -160,11 +163,6 @@ body:active{
     flex-direction: column;
     justify-content: space-around;
 
-}
-
-.title{
-    flex: 1;
-    margin: auto;
 }
 
 .content{
