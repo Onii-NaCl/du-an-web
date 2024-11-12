@@ -34,13 +34,15 @@ body:active{
 }
 
 
-.dau-trang_tieu_de{
+ .title{
+    flex: 1;
     margin: auto;
 }
 
-.dau-trang_gioi_thieu{
-    margin: auto;
+.title:hover{
+    color: yellow;
 }
+
 /*thân trang */
 
 .than-trang{
@@ -58,6 +60,12 @@ body:active{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.link{
+    color: white;
+}
+.link:hover{
+    color: rgb(255, 0, 0);
 }
     /* phần 1 */
 
