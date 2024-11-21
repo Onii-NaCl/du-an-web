@@ -105,6 +105,7 @@ body:active{
 
 .than_trang_noi_dung_1{
     flex: 1;
+    align-self: start;
     margin: 0 2px;
     display: flex;
     flex-direction: column;
@@ -114,6 +115,7 @@ body:active{
 
 .than_trang_noi_dung_2{
     flex: 1;
+    align-self: start;
     margin: 0 2px;
     display: flex;
     flex-direction: column;
@@ -165,7 +167,7 @@ body:active{
 
 .than_trang_minh_hoa_video{
     flex: 4;
-    margin: auto;
+    margin: 0 auto auto;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
